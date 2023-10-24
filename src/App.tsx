@@ -32,7 +32,7 @@ function App() {
   return (
     <UserEmailContext.Provider value={{ email: userEmail }}>
       <Routes>
-        <Route path={RoutesPaths.Login} element={<Login />} />
+        <Route path={RoutesPaths.Login} element={<Login />} />  
         <Route path={RoutesPaths.Feed} element={<Feed />} />
       </Routes>
       <ToastContainer
